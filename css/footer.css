@@ -1,0 +1,61 @@
+.footer{
+    padding:4rem 0;
+    color:rgb(132, 15, 143);
+    background-color:#f7be15e5;
+  }
+
+  .footer p{
+    font-family: 700;
+  }
+
+  @media (max-width:767px) {
+    .footer .item:not(.social) {
+      text-align:;
+      padding-bottom:2.0rem;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer .item.text {
+      margin-bottom:0;
+    }
+  } 
+  .footer .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer .item.social {
+      text-align:center;
+      margin-top:2.0rem;
+    }
+  }
+
+  .footer .item.social > a {
+    font-size:1rem;
+    width:3.6rem;
+    height:3.6rem; 
+    display:inline-block;
+    text-align:center;
+    border-radius:10%;
+    box-shadow: .1rem 0 0 .1rem rgb(170, 4, 134);
+    margin:0 .9rem;
+  }
+  
+  .footer .copyright {
+    text-align:center;
+    padding-top:2rem;
+    font-size:1.5rem;
+    margin-bottom:0;
+    font-weight: 600;
+  }
+  
+  .titulo-livros{
+    margin-left: 2rem;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgba(136, 135, 135, 0.993);
+  }
+
+
+  
